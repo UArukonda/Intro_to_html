@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 img{
@@ -7,4 +7,16 @@ img{
     height: 200px;
     border-radius: 50%;
     border: 5px solid yellow;
+}
+
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    font-size: 20px;
+}
+
+ul,ol{
+    color: green;
 }
