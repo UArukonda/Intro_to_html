@@ -1,8 +1,11 @@
 body{
-    background-color: white;
-    text-align: center;
+    background-color: red;
+    /* text-align: center; */
     border: 10px solid black;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
 }
 
 img{
@@ -16,12 +19,28 @@ img{
 
 h1, h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px dotted grey;
 }
 
 a{
     font-size: 20px;
+    border: 2px dotted grey;
 }
 
 ul,ol{
     color: green;
+    border: 2px dotted grey;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: orange;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+    
 }
